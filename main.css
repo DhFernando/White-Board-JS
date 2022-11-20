@@ -1,0 +1,28 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#draw_pannel {
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.control__pannel {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.control__pannel button {
+    width: 10%;
+    height: 30px;
+    font-size: 1.5em;
+    padding: 0px;
+}
+
+.color_Box {
+    border: 1px solid rgb(197, 197, 197);
+    height: 27px;
+    width: 30px;
+    margin-left: 10px;
+}
